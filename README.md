@@ -18,8 +18,8 @@ rendah dan menyesuaikan kondisi cahaya
 # Steps of using the program
 
 ### 1. Downloading Section
-1. Download the python program file -> driver_drowsiness_detection.py 
-2. Download the shape predictor file -> shape_predictor_68_face_landmarks.dat
+1. Download the python program file at github -> driver_drowsiness_detection.py 
+2. Download the shape predictor file at this link -> https://drive.google.com/file/d/1Vl3LNP2o-5Gf9ok0lTR_Bu3mWtF10wQf/view?usp=sharing
 3. Place it into 1 folder and open the folder in your Visual Studio Code (VS Code)
 4. Open the py file and open the terminal
 5. Done! Your screen should look like this:
