@@ -26,7 +26,8 @@ rendah dan menyesuaikan kondisi cahaya
 ![](images/tampilanvscode.png)
 
 ### 2. Install Package Section (Make sure that you are using python version 3)
-Copy, paste, and enter each line below to the terminal
+Copy, paste, and enter each line below to the terminal like the image below:
+![](images/pipinstall.png)
 1. pip install dlib==19.19.0 --user
 2. pip install imutils==0.5.3 --user
 3. pip install numpy==1.18.3 --user
