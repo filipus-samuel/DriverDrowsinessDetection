@@ -17,23 +17,41 @@ rendah dan menyesuaikan kondisi cahaya
 
 # Steps of using the program
 
-### 1. Download the file needed
+### 1. Downloading Section
 1. Download the python program file -> driver_drowsiness_detection.py 
 2. Download the shape predictor file -> shape_predictor_68_face_landmarks.dat
-3. Place it into 1 folder in your computer like this
-![alt text](https://github.com/filipus-samuel/DriverDrowsinessDetection/image/image.jpg?raw=true)
-5. sdds
-6. 
+3. Place it into 1 folder and open the folder in your Visual Studio Code (VS Code)
+4. Open the py file and open the terminal
+5. Done! Your screen should look like this:
+![](images/tampilanvscode.png)
 
-### 2.
-
-### 3. Pip Installing the Library (Make sure that you are using python version 3)
+### 2. Install Package Section (Make sure that you are using python version 3)
+Copy, paste, and enter each line below to the terminal
 1. pip install dlib==19.19.0 --user
 2. pip install imutils==0.5.3 --user
 3. pip install numpy==1.18.3 --user
 4. pip install opencv-python==4.2.0.34 --user
 5. pip install scipy==1.4.1 --user
 6. pip install argparse==1.4.0 --user
+
+### 3. Run the Program Section
+1. At your own terminal at VS Code, type the script below
+--> python ./driver_drowsiness_detection.py -p shape_predictor_68_face_landmarks.dat
+and it will show like this at your terminal:
+![](images/image.png)
+and it will pop the video camera like this:
+![](images/tampilanutama.png)
+
+## 4. Config the Dynamic EAR Threshold
+By facing the camera, do these steps to get your own EAR Threshold:
+1. Open your eyes widely and press O 
+2. Closed your eyes and press C
+3. Press T to count your threshold
+4. Ready to detect your status! (Drowsy or Not)
+5. To make a new EAR Threshold, press R and repeat step 1 to 3.
+
+Thank You!
+
 
 
 
