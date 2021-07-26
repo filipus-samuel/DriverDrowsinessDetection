@@ -37,10 +37,15 @@ Copy, paste, and enter each line below to the terminal like the image below:
 
 ### 3. Run the Program Section
 1. At your own terminal at VS Code, type the script below
+
 python ./driver_drowsiness_detection.py -p shape_predictor_68_face_landmarks.dat
+
 and it will show like this at your terminal:
+
 ![](images/image.png)
+
 and it will pop the video camera like this:
+
 ![](images/tampilanutama.png)
 
 ## 4. Config the Dynamic EAR Threshold
